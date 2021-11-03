@@ -11,8 +11,8 @@
     "start:dev": "cross-env NODE_ENV=development node server/index.js"
   },
   "dependencies": {
-    "@remix-run/express": "^0.19.3",
-    "@remix-run/react": "^0.19.3",
+    "@remix-run/express": "^0.20.1",
+    "@remix-run/react": "^0.20.1",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
@@ -22,10 +22,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "6.0.0-beta.6",
-    "remix": "^0.19.3"
+    "remix": "^0.20.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "^0.19.3",
+    "@remix-run/dev": "^0.20.1",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "typescript": "^4.1.2"
