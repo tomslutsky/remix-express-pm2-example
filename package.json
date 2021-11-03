@@ -1,0 +1,37 @@
+{
+  "private": false,
+  "name": "remix-express-pm2-example",
+  "description": "",
+  "license": "",
+  "scripts": {
+    "build": "remix build",
+    "dev": "pm2-dev ./pm2.config.js",
+    "postinstall": "remix setup node",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "start:dev": "cross-env NODE_ENV=development node server/index.js"
+  },
+  "dependencies": {
+    "@remix-run/express": "^0.19.3",
+    "@remix-run/react": "^0.19.3",
+    "compression": "^1.7.4",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pm2": "^5.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "6.0.0-beta.6",
+    "remix": "^0.19.3"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^0.19.3",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
